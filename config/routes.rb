@@ -14,6 +14,7 @@ Tweetful::Application.routes.draw do
 
   get '/about' => 'about#index'
   get '/team' => 'team#index'
+  get '/follows' => 'follows#index'
   
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
